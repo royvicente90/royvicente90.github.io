@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <title>Curriculum Vitae</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body bgcolor=#414747>
+
+    <header class="page-head">
+    
+        <nav class="menu">
+            <div align="center">
+                <a href="#Experiencia" class="menu-link">Experiencia</a>
+                <a href="#SobreMi" class="menu-link">Sobre Mí</a>
+                <a href="#Habilidades" class="menu-link">Habilidades</a>
+                <a href="#" class="menu-link">Contactame</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-contenedor">
+
+        <article class="page">
+        <br>
+        <div align="center"><img name="slider" width="1000" height="1000"></div>
+
+        <script>
+            window.addEventListener('load', function () {
+                console.log('el contenido se ha cargado');
+
+                var imagenes = [];
+
+                imagenes[0] = 'img/Foto 1.png';
+                imagenes[1] = 'img/Foto 2.png';
+                imagenes[2] = 'img/Foto 3.png';
+                
+                var IndiceImagenes = 0;
+
+                function cambiarImagenes(){
+                    document.slider.src = imagenes[IndiceImagenes];
+                
+                    if(IndiceImagenes < 2) {
+                        IndiceImagenes++
+                    } else {
+                        IndiceImagenes = 0;
+                    }
+
+                }
+
+                setInterval(cambiarImagenes, 10000);
+
+
+            })
+
+        </script>
+
+        <br><br>
+        <h1><a name="Experiencia"></a>Experiencia</h1>
+        <div align="center"><h2>BattleShip</h2>
+
+        <p>Python. 16 de Marzo de 2020.</p>
+        <a href="https://github.com/royvicente90/ProyectoBattleShip" target="_blank">Link del Proyecto</a></div>
+        <br>
+        <div align="center"><img src="img/BS.png" width="500" height="500"></div>
+
+        <br>
+
+        <div align="center"><h2>COVID Estadístico</h2>
+
+        <p>Python. 19 de Marzo de 2020.</p>
+        <a href="https://github.com/royvicente90/MicroProyectoCoVid19" target="_blank">Link del Proyecto</a></div>
+        <br>
+        <div align="center"><img src="img/Covid.jpg" width="500" height="500"></div>
+
+        <br>
+
+        <div align="center"><h2>Akinator 2.0</h2>
+
+        <p>Java. 30 de Noviembre de 2020.</p>
+        <a href="https://github.com/royvicente90/Prueba-Corta-2-edd" target="_blank">Link del Proyecto</a></div>
+        <br>
+        <div align="center"><img src="img/Arbol.png" width="500" height="500"></div>
+
+        <br><br>
+
+        <h1><a name="SobreMi"></a>Sobre Mí</h1>
+
+        <br>
+
+        <div align="center"><h2>Roy Vicente Rodriguez D'Amato</h2>
+
+        <p>Me gustaría graduarme, conseguir un empleo y escapar de Latinoamérica lo mas rápido posible.</p>
+        <p>Me gustaría montar mi propio negocio de reparación de computadoras, o conseguir un empleo de lo mismo en una multinacional. Llevarme a mi familia a Europa, casarme e invertir el dinero en activos que me puedan asegurar una vejéz tranquila para mí y mis futuras generaciones.</p>
+        <p>Tanto un hobbie como mi trabajo es arreglar computadoras,otro hobbie que tengo es aprender y practicar Pentesting, trabajo en el CeTIC de la UNIMET como soporte y no me canso de trabajar en ello. Me libera y desestresa. Me gusta investigar sobre tecnologías nuevas y buscar exploits en juegos.</p></div>
+
+        <br>
+
+        <h1><a name="Habilidades"></a>Habilidades</h1>
+        <br>
+
+
+
+    <br><br>
+
+        <h1><a name="Contactame"></a>Contactame</h1>
+
+        <br>
+
+        <div align="center"><form action="subscriberform.php" method="post">
+            <p>Nombre: <input type="text" name="nombre" size="40"></p>
+            <p>Correo: <input type="email" name="correo" size="40"></p>
+            <p>Mensaje: <textarea rows="4" cols="50" name="mensaje" size="40">Ingresa el mensaje...</textarea></p>
+                <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+                </p>
+        </form> </div>
+        <br>
+        <footer class="footer">
+        
+        <div align="left">
+        <a href='https://wa.me/584125538939' target="_blank"><img src="img/whatsapp.webp" width="100" height="100"></a>
+        <a href='https://www.instagram.com/royvicente/' target="_blank"><img src="img/ig.png" width="100" height="100"></a>
+        <p>r.roy@correo.unimet.edu.ve</p><a href='https://wa.me/584125538939' target="_blank"><p>+58 412 5538939</p>
+
+        </div>
+        </footer>
+
+</body>
+</html>

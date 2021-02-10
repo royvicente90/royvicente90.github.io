@@ -1,0 +1,59 @@
+
+
+:root {
+
+/* Colors: */    
+--negro: #1a2b31;
+--gris: #8aa2aa;
+--celeste: #21a7d8;
+--blanco: #FFFFFF;
+
+}
+
+/* Hola Mundo */
+
+.menu-link {
+    
+    width: 191px;
+    height: 39px;
+    left: 40px;
+    top: 55px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #012927;
+    
+    }
+
+.page-head {
+    background: #8debeb69;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 20px;
+}
+
+h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 14px;
+    letter-spacing: normal;
+    margin-left: 230px;
+    color: #ddbe69;
+}
+
+h2 {
+    color: #ddbe69;
+}
+p {
+    width: 700px;
+    text-align: justify;
+    color: #9e8a51
+    
+}
