@@ -38,3 +38,31 @@ window.addEventListener('load', function () {
     }
     setInterval(cambiarImagenes, 10000);
 });
+
+window.addEventListener('load',traerDatos());
+
+function traerDatos(){
+  const xhttp = new XMLHttpRequest();
+
+  xhttp.open('GET','data.json',true)
+
+  xhttp.send();
+
+  xhttp.onreadystatechange = function(){
+
+    if(this,this.readyState == 4 && this.status ==200){
+      let datos = JSON.parse(this.responseText);
+      let res = document.querySelector('#res');
+      res.innerHTML = '';
+
+      for(let item of datos){
+        res.innerHTML += `
+        <tr>
+        <td>${item.Skills}</td>
+        <td>${item.Nivel}</td>
+        </tr>`
+        
+      }
+    }
+  }
+}
