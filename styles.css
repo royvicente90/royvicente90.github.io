@@ -28,3 +28,24 @@ header{
 img{
     border-radius: 4px;
 }
+
+h1 {
+    /*font-family: Arial;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 14px;
+    letter-spacing: normal;
+    margin-left: 230px;
+    color: #548ab6;
+}
+
+h2 {
+    color: #012927;
+}
+p {
+    width: 700px;
+    text-align: justify;
+    color: #548ab6;
+    
+}
