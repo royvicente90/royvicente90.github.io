@@ -49,3 +49,9 @@ p {
     color: #548ab6;
     
 }
+
+.exp a{
+    display: block;
+    align-items: center;
+    padding-left: 20px;    
+}
